@@ -6,7 +6,7 @@ namespace UserInputNahishaNobregas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi, this is Nahisha Nobregas!");
+            Console.WriteLine("Hey, how are you? This is Nahisha Nobregas!");
         }
     }
 }
