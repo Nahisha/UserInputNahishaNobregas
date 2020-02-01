@@ -6,24 +6,18 @@ namespace UserInputNahishaNobregas
     {
         static void Main(string[] args)
         {
-            string greeting = "Hey, how are you? This is Nahisha Nobregas!";
-            string nextGreeting = "";
+            string greeting = "Hey, how are you? This is Nahisha Nobregas!- type your answer below and hit enter";
+            string userGreeting = "";
 
-            if (greeting == "Hey, how are you? This is Nahisha Nobregas!")
+            if (greeting == "Hey, how are you? This is Nahisha Nobregas!- type your answer below and hit enter")
             {
-                nextGreeting = "I'm doing great, thank you!";
-            }
-            else if (greeting == "Hey there!")
-            {
-                nextGreeting = "How are you?"; 
-            }
-            else if (greeting == "Are you doing well?")
-            {
-                nextGreeting = "Yes I am, thank you for asking!";
+                userGreeting = "I'm doing great, thank you!" +
+                    "You typed: I'm doing great, thank you!";
             }
 
-            Console.WriteLine(nextGreeting);
-            
+            userGreeting = Console.ReadLine();
+
+           
      
            
         }
